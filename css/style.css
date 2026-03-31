@@ -392,10 +392,23 @@ nav {
 }
 
 .split-image-placeholder {
-  font-size: 5rem;
-  opacity: 0.6;
   position: relative;
   z-index: 1;
+  width: 100%;
+  height: 100%;
+  min-height: 400px;
+}
+
+.split-image-placeholder::after {
+  content: 'Photo';
+  position: absolute;
+  bottom: 1.5rem;
+  left: 1.5rem;
+  font-size: 0.6875rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: rgba(255,255,255,0.2);
 }
 
 .split-image::after {
@@ -599,12 +612,21 @@ footer h4 {
   background: var(--ink);
   border-radius: var(--radius-lg);
   display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 5rem;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 1.5rem;
   box-shadow: var(--shadow-xl);
   position: relative;
   overflow: hidden;
+}
+
+.about-img-placeholder::after {
+  content: 'Photo';
+  font-size: 0.6875rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: rgba(255,255,255,0.2);
 }
 
 .about-img-placeholder::before {
