@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact | Best New Life Nutrition</title>
+  <meta name="description" content="Book a free discovery call or send a message. Let's talk about your nutrition goals." />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav>
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo">Best New Life<span>Nutrition</span></a>
+      <button class="nav-toggle" aria-label="Toggle menu" onclick="this.nextElementSibling.classList.toggle('open')">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="contact.html" class="btn btn-primary active">Book a Call</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- PAGE HERO -->
+  <section class="page-hero">
+    <div class="container">
+      <h1>Get in Touch</h1>
+      <p>A free discovery call is the best place to start — no pressure, just a conversation about your goals.</p>
+    </div>
+  </section>
+
+  <!-- CONTACT SECTION -->
+  <section>
+    <div class="container">
+      <div style="display:grid;grid-template-columns:1fr 1.5fr;gap:4rem;align-items:start;">
+
+        <!-- LEFT: Info -->
+        <div>
+          <p class="section-label">Reach Out</p>
+          <h2>Let's Talk</h2>
+          <div class="divider"></div>
+          <p>Whether you're ready to start or just have questions, I'd love to hear from you. Fill out the form and I'll get back to you within 24 hours.</p>
+
+          <div style="margin-top:2rem;display:flex;flex-direction:column;gap:1.5rem;">
+            <div style="display:flex;gap:1rem;align-items:flex-start;">
+              <div class="card-icon" style="flex-shrink:0;">📧</div>
+              <div>
+                <strong style="display:block;color:var(--blue-dark);margin-bottom:0.25rem;">Email</strong>
+                <a href="mailto:Rikki@bestnulife.com">Rikki@bestnulife.com</a>
+              </div>
+            </div>
+            <div style="display:flex;gap:1rem;align-items:flex-start;">
+              <div class="card-icon" style="flex-shrink:0;">📸</div>
+              <div>
+                <strong style="display:block;color:var(--blue-dark);margin-bottom:0.25rem;">Instagram</strong>
+                <a href="https://www.instagram.com/rikki.white_" target="_blank" rel="noopener">@rikki.white_</a>
+              </div>
+            </div>
+            <div style="display:flex;gap:1rem;align-items:flex-start;">
+              <div class="card-icon" style="flex-shrink:0;">📍</div>
+              <div>
+                <strong style="display:block;color:var(--blue-dark);margin-bottom:0.25rem;">Location</strong>
+                <span style="color:var(--text-mid);">South Carolina<br>Coaching available remotely, nationwide</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- RIGHT: Form -->
+        <div>
+          <form class="contact-form" action="mailto:Rikki@bestnulife.com" method="POST" enctype="text/plain">
+            <div class="form-row">
+              <div class="form-group">
+                <label for="first-name">First Name *</label>
+                <input type="text" id="first-name" name="first-name" required placeholder="Jane" />
+              </div>
+              <div class="form-group">
+                <label for="last-name">Last Name *</label>
+                <input type="text" id="last-name" name="last-name" required placeholder="Smith" />
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="email">Email Address *</label>
+              <input type="email" id="email" name="email" required placeholder="jane@example.com" />
+            </div>
+            <div class="form-group">
+              <label for="interest">I'm interested in…</label>
+              <select id="interest" name="interest">
+                <option value="">Select an option</option>
+                <option value="discovery-call">Free Discovery Call</option>
+                <option value="kickstart">Kickstart Package</option>
+                <option value="transformation">Transformation Package</option>
+                <option value="vip">VIP 1-on-1 Coaching</option>
+                <option value="general">General Question</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="goals">Tell me about your goals *</label>
+              <textarea id="goals" name="goals" required placeholder="What are you hoping to achieve? What's been holding you back?"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary" style="width:100%;">Send Message</button>
+            <p style="margin-top:1rem;font-size:0.85rem;color:var(--text-light);text-align:center;">I typically respond within 24 hours.</p>
+          </form>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="bg-light">
+    <div class="container">
+      <p class="section-label text-center">Common Questions</p>
+      <h2 class="section-title text-center">FAQs</h2>
+      <div class="divider center"></div>
+      <div class="grid-2" style="margin-top:2rem;">
+        <div class="card">
+          <h3>What happens on a discovery call?</h3>
+          <p>We spend about 20–30 minutes talking about your goals, current habits, and what you're looking for in a coach. There's no pitch and no obligation — it's just a conversation.</p>
+        </div>
+        <div class="card">
+          <h3>Is coaching done in person or online?</h3>
+          <p>All coaching is conducted remotely, so you can work with me no matter where you're located. Sessions happen via video call, with ongoing support through messaging.</p>
+        </div>
+        <div class="card">
+          <h3>How long until I see results?</h3>
+          <p>Most clients notice meaningful changes within the first 4–8 weeks, though it depends on your starting point and goals. We set realistic expectations from day one.</p>
+        </div>
+        <div class="card">
+          <h3>Do I need to track everything I eat?</h3>
+          <p>Not necessarily. We'll figure out the right level of tracking for you — some clients prefer detailed logging, others do better with a more flexible framework.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-brand">
+          <div class="nav-logo">Best New Life<span style="color:var(--teal)">Nutrition</span></div>
+          <p style="margin-top:0.75rem;">Personalized nutrition coaching focused on fuel, stress, sleep, and movement.</p>
+          <p style="margin-top:0.75rem;"><a href="mailto:Rikki@bestnulife.com" style="color:var(--teal)">Rikki@bestnulife.com</a></p>
+        </div>
+        <div>
+          <h4>Pages</h4>
+          <ul class="footer-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Connect</h4>
+          <ul class="footer-links">
+            <li><a href="https://www.instagram.com/rikki.white_" target="_blank" rel="noopener">Instagram</a></li>
+            <li><a href="mailto:Rikki@bestnulife.com">Email Us</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>&copy; 2026 Best New Life Nutrition. All rights reserved.</span>
+        <span>Based in South Carolina</span>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
